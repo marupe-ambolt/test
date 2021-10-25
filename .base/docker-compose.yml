@@ -1,0 +1,19 @@
+
+version: "3"
+services:
+  emily-git-test-9ao1ip:
+    image: emily-git-test-9ao1ip
+    container_name: emily-git-test-9ao1ip
+    build:
+      context: ../
+
+    volumes:
+      - ../:/workspace:cached
+
+    networks:
+      - emily-git-test-9ao1ip-network
+
+networks:
+  emily-git-test-9ao1ip-network:
+    name: emily-git-test-9ao1ip-network
+    driver: bridge

@@ -1,0 +1,8 @@
+{
+    "id": "9AO1IP",
+    "name": "git-test",
+    "containerName": "emily-git-test-9ao1ip",
+    "image": "slim",
+    "imageVersion": "2.0.0",
+    "mountTargets": []
+}

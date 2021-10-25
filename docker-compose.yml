@@ -1,0 +1,9 @@
+
+version: "3"
+services:
+  emily-git-test-9ao1ip:
+
+    # Add your custom configuration here!
+
+    networks:
+      - emily-git-test-9ao1ip-network
